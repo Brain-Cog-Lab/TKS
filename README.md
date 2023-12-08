@@ -24,6 +24,8 @@ tenserboard
 tonic
 
 ## Run
+TKS is based on Brain-Cog. To Run this code, download [braincog](https://github.com/BrainCog-X/Brain-Cog)
+
 ### train
 ```python train_main.py --model metarightsltet --learner VGG_SNN -b 128 --epochs 600 --device 0 --dataset cifar10 --num-classes 101 --T 3 --step 4 --alpha 0.7 --layer-by-layer```
 
